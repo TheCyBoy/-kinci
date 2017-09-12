@@ -9,6 +9,7 @@ TextLineBuffer line_buffer = { nullptr, 0, 0, 0 };
 char* TextViewer_FileBuffer = nullptr;
 char TextViewerFileName[MAX_PATH] = {""};  // the most recent file loaded into the text viewer
 
+// Falan filan...
 
 void InitializeTextLineBuffer(char* buffer, int length)
 {
